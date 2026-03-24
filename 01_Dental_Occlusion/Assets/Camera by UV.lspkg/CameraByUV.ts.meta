@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/08b034bb-e2fe-1148-02f2-ad81bba6d9e5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> be381c08-8beb-4639-be0f-2e5806c17c58
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> be381c08-8beb-4639-be0f-2e5806c17c58
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f3cd1ae7-21bd-4fa5-90a0-3303d94d0eb3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f3cd1ae7-21bd-4fa5-90a0-3303d94d0eb3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: bd691ad9-a268-418e-85bb-eddffd8c33d0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cameraMoveSlider: false
+    cameraRootPTM: false
+    uCoord: false
+    vCoord: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - cameraRootPTM: !<reference.PinToMeshComponent> 00000000-0000-0000-0000-000000000000
+      cameraMoveSlider: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      uCoord: !<float> 0.000000
+      vCoord: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.PinToMeshComponent cameraRootPTM
+    - // @input AssignableType cameraMoveSlider
+    - // @input float uCoord
+    - // @input float vCoord

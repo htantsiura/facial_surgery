@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/b98bde8f-f904-45ae-aa1c-a009f69c5448>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 436f4d31-c12f-4c4a-bb31-a7494070b055
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 436f4d31-c12f-4c4a-bb31-a7494070b055
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b1e88de0-4bfb-43c0-93db-e10f6aaeeb1e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b1e88de0-4bfb-43c0-93db-e10f6aaeeb1e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8bdbb453-4f67-4c58-9778-a6a6a4593fbc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boneRoot: false
+    coef: false
+    scaleSlider: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - boneRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      scaleSlider: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      coef: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject boneRoot
+    - // @input AssignableType scaleSlider
+    - // @input float coef = 1

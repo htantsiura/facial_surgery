@@ -1,0 +1,43 @@
+studioVersion:
+  major: 5
+  minor: 15
+  patch: 2
+  build: 25122322
+  type: Public
+coreVersion: 330
+clientVersion: 13.60
+updateCheckpoint: 76
+sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
+metaInfo:
+  hints:
+    []
+  tags:
+    []
+  lensName: 02_Bone_Measure
+  lensDescriptors:
+    []
+  lensApplicability:
+    - Front
+    - Back
+  lensClientCompatibilities:
+    - Spectacles
+  platformBundlesEnabled: false
+  iconHash: ""
+  videoPreviewHash: ""
+  fromTemplateName: Spectacles
+  fromTemplateUrl: Lens Studio 5.15.2.25122322
+  activationCamera: Front
+  sourceMapEnabled: false
+  usingMinClientVersions: false
+  androidMinClientVersion:
+    major: 0
+    minor: 0
+    patch: 0
+    build: 0
+  iOSMinClientVersion:
+    major: 0
+    minor: 0
+    patch: 0
+    build: 0
+  documentId: f769dfea-1290-4129-9597-6101ba8e0b7a
+  originalDocumentId: 4492aa5f-47e4-4abe-9643-7d6f708b0869

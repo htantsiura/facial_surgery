@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/ce74395f-f51c-4760-a21e-84c85309034c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> bdb9a247-7aee-43ad-8da4-75ce1d458463
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> bdb9a247-7aee-43ad-8da4-75ce1d458463
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7f1bd043-40eb-4115-b9f7-024dd9e54418
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7f1bd043-40eb-4115-b9f7-024dd9e54418>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9297370a-5f87-472c-8aa4-0d4683fff34b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    plane: false
+    projectionMat: false
+    zoomSlider: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - plane: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      projectionMat: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      zoomSlider: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject plane
+    - // @input Asset.Material projectionMat
+    - // @input AssignableType zoomSlider

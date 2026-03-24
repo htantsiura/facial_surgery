@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/dbe38908-1101-4835-8dfb-b29fccd75a7a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ad568670-20cb-41fb-9fc2-b0bd7c763d1d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ad568670-20cb-41fb-9fc2-b0bd7c763d1d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e221a990-38da-42e0-84b0-40ced97898f1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e221a990-38da-42e0-84b0-40ced97898f1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 491a6c60-c19e-4f4d-b71e-2f0ffe58272c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    mandobula: false
+    skullMandibula: false
+    sliderX: false
+    sliderY: false
+    sliderZ: false
+    textX: false
+    textY: false
+    textZ: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - sliderX: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      sliderY: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      sliderZ: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      textX: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textY: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textZ: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      mandobula: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      skullMandibula: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType sliderX
+    - // @input AssignableType_1 sliderY
+    - // @input AssignableType_2 sliderZ
+    - // @input Component.Text textX
+    - // @input Component.Text textY
+    - // @input Component.Text textZ
+    - // @input SceneObject mandobula
+    - // @input SceneObject skullMandibula

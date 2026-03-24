@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/34e823d1-dee9-46ef-a019-ad1f4bf70d8a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c3260de9-487f-40e0-8051-0c120bb499ef
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c3260de9-487f-40e0-8051-0c120bb499ef
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7ae680c7-696f-4225-8ec9-ddf41312b056
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7ae680c7-696f-4225-8ec9-ddf41312b056>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: af5359d1-2ff2-4f2b-8d0e-24c9373ff3ea
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugText: false
+    myInteractable: false
+    object: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - object: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      debugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      myInteractable: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject object
+    - // @input Component.Text debugText
+    - // @input AssignableType myInteractable
