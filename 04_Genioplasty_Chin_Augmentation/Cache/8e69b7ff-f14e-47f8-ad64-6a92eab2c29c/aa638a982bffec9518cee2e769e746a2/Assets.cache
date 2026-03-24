@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    092dc642-4dd2-401f-8358-9e6765e22328: 8e69b7ff-f14e-47f8-ad64-6a92eab2c29c/aa638a982bffec9518cee2e769e746a2/Data/left_temporal_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/092dc642-4dd2-401f-8358-9e6765e22328>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 41620
+        Vertices: 20803
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 5.925470, y: 8.365631, z: 7.681428}
+  SourceHash: aa638a982bffec9518cee2e769e746a2
+  FileHash: f2c202f3fd873deba4c2780161eabd08
+  NativePackageItems:
+    []

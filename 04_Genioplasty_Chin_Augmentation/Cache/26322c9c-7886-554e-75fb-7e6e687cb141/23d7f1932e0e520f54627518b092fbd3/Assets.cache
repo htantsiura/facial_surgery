@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c1ae9ca9-b54c-4239-9bb0-fed6fc8465a5: 26322c9c-7886-554e-75fb-7e6e687cb141/23d7f1932e0e520f54627518b092fbd3/Data/cross (1).png
+  Assets:
+    - !<FileTexture/c1ae9ca9-b54c-4239-9bb0-fed6fc8465a5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 23d7f1932e0e520f54627518b092fbd3
+  FileHash: ba268ad55d7c020c8c48103b51469f77
+  NativePackageItems:
+    []

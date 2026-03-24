@@ -1,0 +1,134 @@
+import { Interactable } from "SpectaclesInteractionKit.lspkg/Components/Interaction/Interactable/Interactable"
+
+Interactable
+
+@component
+export class PlaneBuilder extends BaseScriptComponent {
+
+    @input
+    point0: SceneObject
+
+    @input
+    point1: SceneObject
+
+    @input
+    point2: SceneObject
+
+    @input
+    myMaterial: Material
+
+    @input
+    mesh: RenderMeshVisual
+
+    @input
+    followerObject: SceneObject
+
+    @input
+    slicedMat: Material
+
+    private p0: vec3
+    private p1: vec3
+    private p2: vec3
+
+    private planeNormal: vec3
+    private centerPos: vec3
+
+
+    onAwake() {
+
+        this.createEvent("OnStartEvent").bind(() => {
+            let interactable0 = this.point0.getComponent(Interactable.getTypeName())
+            let interactable1 = this.point1.getComponent(Interactable.getTypeName())
+            let interactable2 = this.point2.getComponent(Interactable.getTypeName())
+
+            if (interactable0.onDragUpdate) {
+                interactable0.onDragUpdate.add(() => {
+                    this.rebuildMesh();
+                    this.alignObject();
+                    this.vectorsToShader()
+                });
+            }
+            if (interactable1.onDragUpdate) {
+                interactable1.onDragUpdate.add(() => {
+                    this.rebuildMesh();
+                    this.alignObject();
+                    this.vectorsToShader()
+                });
+            }
+            if (interactable2.onDragUpdate) {
+                interactable2.onDragUpdate.add(() => {
+                    this.rebuildMesh();
+                    this.alignObject();
+                    this.vectorsToShader()
+                });
+            }
+            this.rebuildMesh();
+        })
+    }
+
+    private rebuildMesh(): void {
+        this.p0 = this.point0.getTransform().getLocalPosition()
+        this.p1 = this.point1.getTransform().getLocalPosition()
+        this.p2 = this.point2.getTransform().getLocalPosition()
+
+        var builder = new MeshBuilder([
+            { name: "position", components: 3 },
+            { name: "normal", components: 3 },
+            { name: "texture0", components: 2 },
+        ]);
+
+        builder.topology = MeshTopology.Triangles;
+        builder.indexType = MeshIndexType.UInt16;
+
+        builder.appendVerticesInterleaved([
+            // Position                             Normal      UV       Index
+            this.p0.x, this.p0.y, this.p0.z,        0, 0, 1,    1, 0,    // 0
+            this.p1.x, this.p1.y, this.p1.z,        0, 0, 1,    0, 0,    // 1
+            this.p2.x, this.p2.y, this.p2.z,        0, 0, 1,    0, 1,    // 2
+            // right, top, -1,      0, 0, 1,    1, 1,    // 3
+        ]);
+
+        builder.appendIndices([
+            0,1,2, // First Triangle
+            // 2,3,0, // Second Triangle
+        ]);
+
+        if(builder.isValid()){
+            this.getSceneObject().getComponent("RenderMeshVisual").mesh = builder.getMesh();
+            builder.updateMesh();
+        }
+        else{
+            print("Mesh data invalid!");
+        }
+    }
+
+    private alignObject(): void {
+        if(!this.followerObject) return;
+
+        let v1 = this.p1.sub(this.p0)
+        let v2 = this.p2.sub(this.p0)
+        this.planeNormal = v1.cross(v2).normalize()
+        print(this.planeNormal)
+        let targetRotation = quat.rotationFromTo(vec3.up(), this.planeNormal); 
+        this.followerObject.getTransform().setLocalRotation(targetRotation)
+        this.centerPos = this.p0.add(this.p1).add(this.p2).uniformScale(1/3);
+        this.followerObject.getTransform().setLocalPosition(this.centerPos);
+    }
+
+    private vectorsToShader(): void { 
+        if(!this.slicedMat) return;
+
+        let matPass = this.slicedMat.mainPass
+
+        matPass.clipPosX = -this.planeNormal.x
+        matPass.clipPosY = -this.planeNormal.y
+        matPass.clipPosZ = -this.planeNormal.z
+
+        matPass.clipNomalX = this.centerPos.x
+        matPass.clipNomalY = this.centerPos.y
+        matPass.clipNomalZ = this.centerPos.z
+
+    }
+    
+}
+

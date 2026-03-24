@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    0bc326ae-d2c8-4f29-aa7f-1b94de432023: af6fd33d-8690-4613-9fef-4c2f75ba3ad1/e987c465f7c9f6076532e3acc741d46c/Data/Teeth_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/0bc326ae-d2c8-4f29-aa7f-1b94de432023>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 25256
+        Vertices: 12632
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 6.421988, y: 3.936329, z: 5.461360}
+  SourceHash: e987c465f7c9f6076532e3acc741d46c
+  FileHash: 53cb47aec850d9a99fa864d016b082d7
+  NativePackageItems:
+    []

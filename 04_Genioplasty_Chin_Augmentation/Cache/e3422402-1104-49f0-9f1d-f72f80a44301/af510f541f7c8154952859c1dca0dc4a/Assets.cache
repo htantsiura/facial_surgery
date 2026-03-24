@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e4eceaab-6dbb-4d69-b307-3c82cdec35fa: e3422402-1104-49f0-9f1d-f72f80a44301/af510f541f7c8154952859c1dca0dc4a/Data/Left_zygomatic_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/e4eceaab-6dbb-4d69-b307-3c82cdec35fa>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 7580
+        Vertices: 3792
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.701751, y: 4.424140, z: 3.347234}
+  SourceHash: af510f541f7c8154952859c1dca0dc4a
+  FileHash: 5592dd190cc8275cf4aa780beb858b3f
+  NativePackageItems:
+    []

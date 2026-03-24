@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    113e44b6-effa-4ae9-986c-9de1c577d880: 5d2bb9fc-a662-2ae4-ad57-f8fddbc4422c/3e15aa4ca554e3cc979ea2e9380c64e9/Data/Circle.png
+  Assets:
+    - !<FileTexture/113e44b6-effa-4ae9-986c-9de1c577d880>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 16
+        Height: 16
+  SourceHash: 3e15aa4ca554e3cc979ea2e9380c64e9
+  FileHash: 971719de994c033d5904cb1f8f984e99
+  NativePackageItems:
+    []

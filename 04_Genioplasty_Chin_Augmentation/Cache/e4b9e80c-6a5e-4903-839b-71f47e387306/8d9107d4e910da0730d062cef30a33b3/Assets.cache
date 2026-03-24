@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    b909b53b-3407-4ccc-a5b6-50cc63da5c81: e4b9e80c-6a5e-4903-839b-71f47e387306/8d9107d4e910da0730d062cef30a33b3/Data/Lower_teeth_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/b909b53b-3407-4ccc-a5b6-50cc63da5c81>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 26480
+        Vertices: 13240
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 6.248207, y: 3.560398, z: 5.508192}
+  SourceHash: 8d9107d4e910da0730d062cef30a33b3
+  FileHash: 797ef43373d26392946b9177817dadd2
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    62b5321e-c42c-4013-9523-238629f6ba79: 99d9f632-6450-4145-b0d0-62f31a2c9f6f/fd1bf03a05cf21fc65e3903b338d1ba4/Data/right_nasal_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/62b5321e-c42c-4013-9523-238629f6ba79>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2082
+        Vertices: 1043
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.151862, y: 1.728711, z: 2.628204}
+  SourceHash: fd1bf03a05cf21fc65e3903b338d1ba4
+  FileHash: 15b6f21c4e5ca13d0801d0da4c17c2a3
+  NativePackageItems:
+    []

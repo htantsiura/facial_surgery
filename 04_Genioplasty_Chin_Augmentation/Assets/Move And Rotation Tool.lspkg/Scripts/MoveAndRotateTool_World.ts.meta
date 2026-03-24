@@ -1,0 +1,67 @@
+- !<AssetImportMetadata/078a3f78-e8b2-25ba-b7db-c5e4e248fe10>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 859d9b54-e715-4742-97ea-b309e513b5e5
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 859d9b54-e715-4742-97ea-b309e513b5e5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8f2005a7-8bca-4734-87c7-1cf9067220fb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8f2005a7-8bca-4734-87c7-1cf9067220fb>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: abfea348-a1a7-4da2-a2f2-fca549e66cf3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    interactable: false
+    interactableRotX: false
+    interactableRotY: false
+    interactableRotZ: false
+    mat: false
+    matRot: false
+    object: false
+    speedCoef: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - interactable: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      interactableRotX: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      interactableRotY: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      interactableRotZ: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      object: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      speedCoef: !<float> 0.000000
+      mat: !<reference.Material[]>
+        []
+      matRot: !<reference.Material[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType interactable
+    - // @input AssignableType_1 interactableRotX
+    - // @input AssignableType_2 interactableRotY
+    - // @input AssignableType_3 interactableRotZ
+    - // @input SceneObject object
+    - // @input float speedCoef
+    - "// @input Asset.Material[] mat"
+    - "// @input Asset.Material[] matRot"

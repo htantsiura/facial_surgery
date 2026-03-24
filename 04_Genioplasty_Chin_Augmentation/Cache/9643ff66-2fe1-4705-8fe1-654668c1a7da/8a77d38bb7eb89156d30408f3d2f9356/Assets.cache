@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    8732e46f-a09b-40ce-b9a8-0d669a5559f6: 9643ff66-2fe1-4705-8fe1-654668c1a7da/8a77d38bb7eb89156d30408f3d2f9356/Data/Right_max_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/8732e46f-a09b-40ce-b9a8-0d669a5559f6>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 45974
+        Vertices: 22985
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 5.091806, y: 6.751859, z: 6.856653}
+  SourceHash: 8a77d38bb7eb89156d30408f3d2f9356
+  FileHash: 82568e005fb2eeec2a2d75697e2bb836
+  NativePackageItems:
+    []

@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/dec2f85d-3789-4ae9-bc97-f95f9d96c053>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d0bdadef-40b0-41ea-b3d4-e2e1b15f0e6a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d0bdadef-40b0-41ea-b3d4-e2e1b15f0e6a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ea1f60f8-731e-4d3d-b092-95ce683b424e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ea1f60f8-731e-4d3d-b092-95ce683b424e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a2ec22da-e6fa-457b-8545-095d059ed8e9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boneCutObject: false
+    boneMeasureObject: false
+    dentalOcclusionObject: false
+    mainMenu: false
+    teethSclicingObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - mainMenu: !<reference.SceneObject[]>
+        []
+      dentalOcclusionObject: !<reference.SceneObject[]>
+        []
+      boneMeasureObject: !<reference.SceneObject[]>
+        []
+      teethSclicingObject: !<reference.SceneObject[]>
+        []
+      boneCutObject: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input SceneObject[] mainMenu"
+    - "// @input SceneObject[] dentalOcclusionObject"
+    - "// @input SceneObject[] boneMeasureObject"
+    - "// @input SceneObject[] teethSclicingObject"
+    - "// @input SceneObject[] boneCutObject"

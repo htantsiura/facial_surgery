@@ -1,0 +1,50 @@
+@component
+export class ButtonBackToOriginPosition extends BaseScriptComponent {
+
+    private objectTrf: Transform;
+    private _originPos: vec3; 
+    private _currentPos: vec3; 
+    private _originRot: quat;
+    private _currentRot: quat;
+    private onPosChangedCallbacks: ((newPos: vec3) => void)[] = [];
+    private onRotChangedCallbacks: ((newRot: quat) => void)[] = [];
+    private interaction: InteractionComponent;
+
+    onAwake() {
+        this.objectTrf = this.getSceneObject().getTransform();
+        this._originPos = this.objectTrf.getLocalPosition();
+        this._originRot = this.objectTrf.getLocalRotation();
+        
+        this.interaction = this.getSceneObject().getComponent("Component.InteractionComponent");
+        if (this.interaction) {
+            this.interaction.onTouchEnd.add(() => {
+                this.currentPos = this.objectTrf.getLocalPosition();
+                this.currentRot = this.objectTrf.getLocalRotation();
+            });
+        }
+    }
+
+    public set currentPos(newPos: vec3) {
+        if (this._currentPos && this._currentPos.equal(newPos)) {
+            return; 
+        }
+        this._currentPos = newPos;
+        if (this._originPos && !this._originPos.equal(newPos)) {
+            print("Позиция отличается от стартовой!");
+        }
+    }
+
+    public set currentRot(newRot: quat) {
+        if (this._currentRot && this._currentRot.equal(newRot)) {
+            return; 
+        }
+        this._currentRot = newRot;
+        if (this._originRot && !this._originRot.equal(newRot)) {
+            print("rotation отличается от стартовой!");
+        }
+    }
+
+    public get currentPos(): vec3 {
+        return this._currentPos;
+    }
+}

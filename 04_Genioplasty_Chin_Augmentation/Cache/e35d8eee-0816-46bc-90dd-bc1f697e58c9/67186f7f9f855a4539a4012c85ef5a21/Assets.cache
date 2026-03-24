@@ -1,0 +1,59 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 67186f7f9f855a4539a4012c85ef5a21
+  FileHash: d1e38783b31c11ed4fa2eaa37c71c5c6
+  NativePackageItems:
+    - !<own> c266676d-b74b-24f8-bfcc-4b5bc2f6a0b6
+    - !<own> ddc87cca-cd47-93d7-5f66-7008493866df
+    - !<own> 54b93feb-058a-e8c0-cf86-4312a0c5231f
+- !<AssetImportMetadata/54b93feb-058a-e8c0-cf86-4312a0c5231f>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> a50e7c07-21df-429b-a13c-86e4af4e69c5
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> a50e7c07-21df-429b-a13c-86e4af4e69c5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/c266676d-b74b-24f8-bfcc-4b5bc2f6a0b6>
+  ImportedAssetIds:
+    Material: !<reference> a0e230c9-8b6d-4f05-b451-7e06addcc670
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> a0e230c9-8b6d-4f05-b451-7e06addcc670
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/ddc87cca-cd47-93d7-5f66-7008493866df>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 87d1e1cb-e638-4313-806d-0aa5140d564b
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 87d1e1cb-e638-4313-806d-0aa5140d564b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

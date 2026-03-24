@@ -1,0 +1,845 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: d8e4d6acb57a58f95e470b5493e15173
+  FileHash: 39177ce09d88a5f5a003254a8ba8498e
+  NativePackageItems:
+    - !<own> 3117f008-b877-234f-4aa6-33844bd2e915
+    - !<own> cecfc831-c162-45d3-a9ba-ecb0c4372320
+    - !<own> 97045735-6375-82e9-11de-abe62625320c
+    - !<own> 1dad70d3-aea8-e763-b19a-8fe74dcc4767
+    - !<own> 1b5bd2a0-099e-867e-506a-c740574307ff
+    - !<own> 8bed5fd6-4f78-0176-45a9-61083d7afbfe
+    - !<own> 7a289da0-9770-93ab-727c-0dcce9019947
+    - !<own> a409ecda-8596-42f3-46bd-d53e55482689
+    - !<own> efe83422-972c-d53f-f92d-e58c2ce60adc
+    - !<own> 421145e3-8e10-5483-1f01-7791a1058811
+    - !<own> 5b65a67c-0601-6ca3-b849-20e08e49891e
+    - !<own> aa25d3a1-6c48-24a4-47c3-31d7ecaec940
+    - !<own> 668a8874-0c91-9b2a-570d-d046fc452669
+    - !<own> 5ad72b3c-9e59-2022-a163-185b70ac40aa
+    - !<own> 5f9af41f-f625-af01-f93e-4c949428b3c5
+    - !<own> c269017c-0726-d272-9d8b-f04ba97ff8c6
+    - !<own> 4cd09e01-3586-d583-bec9-579774c3a2d3
+    - !<own> 26322c9c-7886-554e-75fb-7e6e687cb141
+    - !<own> 08b034bb-e2fe-1148-02f2-ad81bba6d9e5
+- !<AssetImportMetadata/08b034bb-e2fe-1148-02f2-ad81bba6d9e5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> be381c08-8beb-4639-be0f-2e5806c17c58
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> be381c08-8beb-4639-be0f-2e5806c17c58
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f3cd1ae7-21bd-4fa5-90a0-3303d94d0eb3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/1b5bd2a0-099e-867e-506a-c740574307ff>
+  ImportedAssetIds:
+    Material: !<reference> 155a329b-a979-4c87-b177-8a87b1e7bec2
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 155a329b-a979-4c87-b177-8a87b1e7bec2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/1dad70d3-aea8-e763-b19a-8fe74dcc4767>
+  ImportedAssetIds:
+    Texture: !<reference> 5126a6f1-28e7-452d-a9f1-b5eefcce6a60
+  ImporterName: DeviceCameraTextureImporter
+  PrimaryAsset: !<reference> 5126a6f1-28e7-452d-a9f1-b5eefcce6a60
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/21a33534-4917-41b1-a501-4440571486f5>
+  Prototype: !<ObjectOwner/371c150d-ac19-40bd-abb0-2c362f7e1740>
+    PackagePath: ""
+    objects:
+      - !<own> c2bf217c-f3e3-4731-5502-20a7b4137053
+- !<AssetImportMetadata/26322c9c-7886-554e-75fb-7e6e687cb141>
+  ImportedAssetIds:
+    Texture: !<reference> c1ae9ca9-b54c-4239-9bb0-fed6fc8465a5
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> c1ae9ca9-b54c-4239-9bb0-fed6fc8465a5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<SceneObject/297709ab-8a48-42f0-7867-62723f2330a6>
+  PrefabRemaps:
+    []
+  Name: Section Ortho Camera
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000014}
+    Rotation: {x: 90.000008, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 0.100000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7aa5137c-be00-425d-617c-5b1be609ab0b
+    - !<own> c8b9c351-9250-48c7-4ded-c97e06a0053b
+  Components:
+    - !<own> 8df75886-208b-4730-72cf-fff91b8af943
+- !<ScreenTransform/298a9ec8-1fb0-4d21-4ea3-598a96d18fb9>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/2c300692-37fb-4983-61e9-97d0ffeef815>
+  PrefabRemaps:
+    []
+  Name: Screen Text
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 490c6f6d-0805-40fa-5d0b-1ccc5a0a7e0d
+    - !<own> 87430acc-72c4-46fc-7d2f-11e18447c5ba
+- !<AssetImportMetadata/3117f008-b877-234f-4aa6-33844bd2e915>
+  ImportedAssetIds:
+    Material: !<reference> 01b84773-c2cc-4d99-9422-0e2fad03f7a8
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 01b84773-c2cc-4d99-9422-0e2fad03f7a8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScreenRegionComponent/3e70c3f4-0abd-4934-4087-a4ce433bbc9f>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: FullFrame
+  ResizeWithKeyboard: false
+- !<AssetImportMetadata/421145e3-8e10-5483-1f01-7791a1058811>
+  ImportedAssetIds:
+    FileMesh: !<reference> 969f46e7-f62b-481f-8fa8-4efe61f2b7ad
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> 969f46e7-f62b-481f-8fa8-4efe61f2b7ad
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings>
+    ModifiedVertexFormats:
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/490c6f6d-0805-40fa-5d0b-1ccc5a0a7e0d>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.984443
+    bottom: -0.635399
+    right: -0.777163
+    top: -0.552855
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<AssetImportMetadata/4cd09e01-3586-d583-bec9-579774c3a2d3>
+  ImportedAssetIds:
+    RenderTarget: !<reference> e9bf445e-c474-40fd-a086-a767e3d100b2
+  ImporterName: RenderTargetImporter
+  PrimaryAsset: !<reference> e9bf445e-c474-40fd-a086-a767e3d100b2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/58fe0514-a31e-4243-792c-e27f9d941428>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<AssetImportMetadata/5ad72b3c-9e59-2022-a163-185b70ac40aa>
+  ImportedAssetIds:
+    FileMesh: !<reference> c788af04-b4bd-4a8f-a842-117f674b6dd5
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> c788af04-b4bd-4a8f-a842-117f674b6dd5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings>
+    ModifiedVertexFormats:
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/5b65a67c-0601-6ca3-b849-20e08e49891e>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 10021c05-dd02-4a2d-af03-344127fea788
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 10021c05-dd02-4a2d-af03-344127fea788
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/5f9af41f-f625-af01-f93e-4c949428b3c5>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 0ff6ecd0-258d-40ca-ac40-f96803866e44
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 0ff6ecd0-258d-40ca-ac40-f96803866e44
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/668a8874-0c91-9b2a-570d-d046fc452669>
+  ImportedAssetIds:
+    Texture: !<reference> e7a2383e-5f5b-4721-88c3-2d6d92f572ac
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> e7a2383e-5f5b-4721-88c3-2d6d92f572ac
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Image/6bef6e65-3f18-4972-6a24-fd46343408d2>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 01b84773-c2cc-4d99-9422-0e2fad03f7a8
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/7a289da0-9770-93ab-727c-0dcce9019947>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> fe1365dd-69b4-41bc-b299-b3d7d93b2313
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> fe1365dd-69b4-41bc-b299-b3d7d93b2313
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/7aa5137c-be00-425d-617c-5b1be609ab0b>
+  PrefabRemaps:
+    []
+  Name: Full Frame Region
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> efd4ff7b-ff86-47e9-4c81-aaa531e64b42
+    - !<own> 2c300692-37fb-4983-61e9-97d0ffeef815
+  Components:
+    - !<own> 298a9ec8-1fb0-4d21-4ea3-598a96d18fb9
+    - !<own> 3e70c3f4-0abd-4934-4087-a4ce433bbc9f
+- !<Text/87430acc-72c4-46fc-7d2f-11e18447c5ba>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: 1 cm
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 12
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<AssetImportMetadata/8bed5fd6-4f78-0176-45a9-61083d7afbfe>
+  ImportedAssetIds:
+    Texture: !<reference> 396b3131-243c-4a45-98de-9ee2af16f9fb
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 396b3131-243c-4a45-98de-9ee2af16f9fb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Camera/8df75886-208b-4730-72cf-fff91b8af943>
+  PrefabRemaps:
+    []
+  Name: Camera
+  Enabled: true
+  renderLayer: 1048576
+  MipmapLevel: 0
+  RenderOrder: 1
+  Size: 15.000000
+  Near: -1.000000
+  Far: 1.000000
+  Fov: 63.541019
+  ClearColor: !<CameraClearColor>
+    Mode: None
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  ClearDepth: !<CameraClearDepth>
+    Mode: Value
+    Value: 1.000000
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Aspect: 1.000000
+  CameraType: Orthographic
+  DepthMode: Regular
+  DeviceProperty: All
+  AspectPreset: Custom
+  OitLayers: NoOit
+  RenderTarget: !<reference> e9bf445e-c474-40fd-a086-a767e3d100b2
+  DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+  DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/97045735-6375-82e9-11de-abe62625320c>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 6af41e99-b9de-4506-aff4-8e4d2274e9ad
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 6af41e99-b9de-4506-aff4-8e4d2274e9ad
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 21a33534-4917-41b1-a501-4440571486f5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<PinToMeshComponent/98dfaba5-c21b-4ff8-632c-ed6fff68d155>
+  PrefabRemaps:
+    []
+  Name: Pin to Mesh
+  Enabled: true
+  Target: !<reference> e41afdc9-9ecf-45ad-62cf-d5e304cc91f8
+  PinUV: {x: 0.190000, y: 0.500000}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 90.000000}
+  UseVertexNormal: true
+  Orientation: PositionAndDirection
+- !<ScriptComponent/a16579d8-fe54-4705-511f-32e0da29ce57>
+  PrefabRemaps:
+    []
+  Name: CameraByUV
+  Enabled: false
+  ScriptAsset: !<reference> be381c08-8beb-4639-be0f-2e5806c17c58
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      cameraRootPTM: !<reference.PinToMeshComponent> 98dfaba5-c21b-4ff8-632c-ed6fff68d155
+      uCoord: 0.250000
+      vCoord: 0.500000
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/a409ecda-8596-42f3-46bd-d53e55482689>
+  ImportedAssetIds:
+    FileMesh: !<reference> e619a683-5b0d-4240-bca7-eef8344672ec
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> e619a683-5b0d-4240-bca7-eef8344672ec
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings>
+    ModifiedVertexFormats:
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/aa25d3a1-6c48-24a4-47c3-31d7ecaec940>
+  ImportedAssetIds:
+    Texture: !<reference> 873b5607-4cbb-4a6a-a3da-ff0fcb3726fb
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 873b5607-4cbb-4a6a-a3da-ff0fcb3726fb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/be3ece87-1a09-41d6-5c22-6237733b04b7>
+  PrefabRemaps:
+    []
+  Name: camera Root
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 297709ab-8a48-42f0-7867-62723f2330a6
+  Components:
+    - !<own> f982419c-8aaf-41f3-7d2c-4aa91233c0f9
+    - !<own> 98dfaba5-c21b-4ff8-632c-ed6fff68d155
+- !<AssetImportMetadata/c269017c-0726-d272-9d8b-f04ba97ff8c6>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 19f297bd-9978-4cc6-90ec-2399716a16ba
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 19f297bd-9978-4cc6-90ec-2399716a16ba
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/c2bf217c-f3e3-4731-5502-20a7b4137053>
+  PrefabRemaps:
+    []
+  Name: Camera by UV
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -101.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d489dd0f-fb65-4db8-6ea0-073b504227e6
+    - !<own> be3ece87-1a09-41d6-5c22-6237733b04b7
+  Components:
+    - !<own> a16579d8-fe54-4705-511f-32e0da29ce57
+- !<SceneObject/c8b9c351-9250-48c7-4ded-c97e06a0053b>
+  PrefabRemaps:
+    []
+  Name: Plane
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 100.000008, z: 10.000001}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e99a8b79-3cb8-44fa-6077-11dfa576ef7f
+- !<AssetImportMetadata/cecfc831-c162-45d3-a9ba-ecb0c4372320>
+  ImportedAssetIds:
+    Material: !<reference> a02aba21-b90a-4d8d-b351-8fc9b86a6aa6
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> a02aba21-b90a-4d8d-b351-8fc9b86a6aa6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/d489dd0f-fb65-4db8-6ea0-073b504227e6>
+  PrefabRemaps:
+    []
+  Name: Sphere
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 8.056671}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 18.664612, y: 20.000000, z: 42.752571}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e41afdc9-9ecf-45ad-62cf-d5e304cc91f8
+- !<RenderMeshVisual/e41afdc9-9ecf-45ad-62cf-d5e304cc91f8>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a7c5f9c9-0e2b-4f95-a7cd-f80c0774aaf8
+  Mesh: !<reference> c788af04-b4bd-4a8f-a842-117f674b6dd5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/e99a8b79-3cb8-44fa-6077-11dfa576ef7f>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 155a329b-a979-4c87-b177-8a87b1e7bec2
+  Mesh: !<reference> 969f46e7-f62b-481f-8fa8-4efe61f2b7ad
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/efd4ff7b-ff86-47e9-4c81-aaa531e64b42>
+  PrefabRemaps:
+    []
+  Name: Screen Image
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 58fe0514-a31e-4243-792c-e27f9d941428
+    - !<own> 6bef6e65-3f18-4972-6a24-fd46343408d2
+- !<AssetImportMetadata/efe83422-972c-d53f-f92d-e58c2ce60adc>
+  ImportedAssetIds:
+    Material: !<reference> a7c5f9c9-0e2b-4f95-a7cd-f80c0774aaf8
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> a7c5f9c9-0e2b-4f95-a7cd-f80c0774aaf8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f3cd1ae7-21bd-4fa5-90a0-3303d94d0eb3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: bd691ad9-a268-418e-85bb-eddffd8c33d0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cameraRootPTM: false
+    uCoord: false
+    vCoord: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - cameraRootPTM: !<reference.PinToMeshComponent> 00000000-0000-0000-0000-000000000000
+      uCoord: !<float> 0.000000
+      vCoord: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.PinToMeshComponent cameraRootPTM
+    - // @input float uCoord
+    - // @input float vCoord
+- !<RenderMeshVisual/f982419c-8aaf-41f3-7d2c-4aa91233c0f9>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a02aba21-b90a-4d8d-b351-8fc9b86a6aa6
+  Mesh: !<reference> e619a683-5b0d-4240-bca7-eef8344672ec
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

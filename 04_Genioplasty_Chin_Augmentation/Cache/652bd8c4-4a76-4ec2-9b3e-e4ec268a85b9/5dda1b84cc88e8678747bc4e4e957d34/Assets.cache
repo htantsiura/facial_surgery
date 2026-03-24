@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    dd6e811e-c01f-4d33-882b-c84537ce9583: 652bd8c4-4a76-4ec2-9b3e-e4ec268a85b9/5dda1b84cc88e8678747bc4e4e957d34/Data/Left_maxilla_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/dd6e811e-c01f-4d33-882b-c84537ce9583>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 143649
+        Vertices: 73779
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.821497, y: 7.051956, z: 7.061707}
+  SourceHash: 5dda1b84cc88e8678747bc4e4e957d34
+  FileHash: 8dc21bb0b2719b9388a4bca0b81f730f
+  NativePackageItems:
+    []

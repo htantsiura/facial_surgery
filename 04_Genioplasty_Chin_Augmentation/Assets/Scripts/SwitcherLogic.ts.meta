@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/4d845313-cd2e-4354-b3f4-a52dfd00ed59>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 572d7dfc-3501-4744-87ed-837f3cb53260
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 572d7dfc-3501-4744-87ed-837f3cb53260
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b94c42a2-ed31-4e98-95a4-216ab841b68b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b94c42a2-ed31-4e98-95a4-216ab841b68b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: cdcca0ee-7e09-4867-b1a6-102b9933683b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    objectShowWhenOff: false
+    objects: false
+    switcher: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - switcher: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      objects: !<reference.SceneObject[]>
+        []
+      objectShowWhenOff: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType switcher
+    - "// @input SceneObject[] objects"
+    - "// @input SceneObject[] objectShowWhenOff"

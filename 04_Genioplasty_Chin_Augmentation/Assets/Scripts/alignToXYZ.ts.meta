@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/149deb12-467a-42e4-99f4-12aff322591d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b0fe9995-f90b-4efd-a705-34447a27afd1
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b0fe9995-f90b-4efd-a705-34447a27afd1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 1b1461a3-0ff0-4f2f-be2e-3f052a8f0abe
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/1b1461a3-0ff0-4f2f-be2e-3f052a8f0abe>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9b27a8c1-705f-4fca-ba99-8f63dc11672b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boneRoot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - boneRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject boneRoot

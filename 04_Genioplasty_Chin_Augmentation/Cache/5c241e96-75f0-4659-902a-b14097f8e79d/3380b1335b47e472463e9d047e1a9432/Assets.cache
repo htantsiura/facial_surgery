@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e69602e1-eb0f-4fd7-965e-4b3a09882968: 5c241e96-75f0-4659-902a-b14097f8e79d/3380b1335b47e472463e9d047e1a9432/Data/right_palatine_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/e69602e1-eb0f-4fd7-965e-4b3a09882968>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 7124
+        Vertices: 3592
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.101263, y: 3.572151, z: 3.010743}
+  SourceHash: 3380b1335b47e472463e9d047e1a9432
+  FileHash: 4b8732d49fd9e18017c3f8c242ed49bb
+  NativePackageItems:
+    []

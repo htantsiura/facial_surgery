@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    25bb157a-2068-4f44-89b0-1d5959f6880d: ca3bcfbf-18e5-4017-8b3e-dea3b40517b8/dad31db5f7d3a29c4672631f3ea95e4c/Data/Occipital_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/25bb157a-2068-4f44-89b0-1d5959f6880d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 80649
+        Vertices: 40899
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 10.989067, y: 6.825494, z: 11.768105}
+  SourceHash: dad31db5f7d3a29c4672631f3ea95e4c
+  FileHash: e84439f898a4bf5f83bf40c9772e3a82
+  NativePackageItems:
+    []

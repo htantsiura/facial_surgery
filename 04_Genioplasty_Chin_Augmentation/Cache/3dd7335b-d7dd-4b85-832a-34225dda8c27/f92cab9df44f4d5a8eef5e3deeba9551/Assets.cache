@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3fc92e70-e2a2-4f4c-a42e-5cd1ba916578: 3dd7335b-d7dd-4b85-832a-34225dda8c27/f92cab9df44f4d5a8eef5e3deeba9551/Data/Left_parietal_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/3fc92e70-e2a2-4f4c-a42e-5cd1ba916578>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 75934
+        Vertices: 37969
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 6.933323, y: 12.208376, z: 10.852713}
+  SourceHash: f92cab9df44f4d5a8eef5e3deeba9551
+  FileHash: f2757949c9900461433e1b60e3dc90a1
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4b9fb3dc-a11a-4280-88a2-35353367db96: 0b356fb4-f463-466f-9419-5c50341b4e92/7d3b0cbcdc5a68a7072801b50ff7bf7b/Data/rounded square.jpg
+  Assets:
+    - !<FileTexture/4b9fb3dc-a11a-4280-88a2-35353367db96>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 7d3b0cbcdc5a68a7072801b50ff7bf7b
+  FileHash: de48862e24e0386c740bca1418f33fe9
+  NativePackageItems:
+    []

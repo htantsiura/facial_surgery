@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    a04103e6-c0ce-4a3c-b806-599d3cd3a1d2: 7507b0fc-4b40-4d8b-910d-bd97f8666545/b107fa9c18c952159f2363e573a8799d/Data/Right_lacrimal_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/a04103e6-c0ce-4a3c-b806-599d3cd3a1d2>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 3714
+        Vertices: 1855
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.249215, y: 3.810276, z: 2.571383}
+  SourceHash: b107fa9c18c952159f2363e573a8799d
+  FileHash: 1e8a5f8e56ce54877e70922494b78bb3
+  NativePackageItems:
+    []

@@ -1,0 +1,148 @@
+import { Interactable } from "SpectaclesInteractionKit.lspkg/Components/Interaction/Interactable/Interactable"
+import { InteractableManipulation } from "SpectaclesInteractionKit.lspkg/Components/Interaction/InteractableManipulation/InteractableManipulation"
+import { PlaneBuilder } from "./PlaneBuilder"
+
+@component
+export class CutToolController extends BaseScriptComponent {
+
+    @input
+    tool: SceneObject
+
+    @input
+    toolUI: SceneObject
+
+    @input
+    chinPosUI: SceneObject
+
+    @input
+    buttonText: Text
+
+    @input
+    iconLock: SceneObject
+
+    @input
+    planeBuilderScript: PlaneBuilder
+
+    @input
+    slidersMove: SceneObject
+
+    @input
+    slidersRotate: SceneObject
+
+    @input
+    chin: SceneObject
+
+    private _flag_toolIsActive: boolean = false
+    private flag_toolIsOn: boolean = false
+    private flag_chinMove: boolean = true
+    private zeroPosForChin: vec3
+
+    // private _isToolActive: boolean = false;
+    private onStateChangedCallbacks: ((isActive: boolean) => void)[] = [];
+
+
+    onAwake() {
+
+        this._flag_toolIsActive = false
+        this.flag_toolIsOn = false
+        this.iconLock.enabled = false
+        this.zeroPosForChin = this.chin.getChild(0).getTransform().getLocalPosition()
+
+        this.createEvent("OnStartEvent").bind(() => {
+            this.deactivateCutTool()
+        })
+    }
+
+    private deactivateCutTool(): void {
+        this.buttonText.text = "Activate"
+        this.iconLock.enabled = false
+        this.isToolActive = false
+    }
+
+    private activateCutTool(): void {
+        this.buttonText.text = "Deactivate"
+        this.iconLock.enabled = true
+        this.isToolActive = true
+    }
+
+    private buttonActivateDeactivate(): void {
+        if (!this._flag_toolIsActive) {
+            this.activateCutTool()
+        } else {
+            this.deactivateCutTool()
+        }
+    }
+
+    private buttonNext(): void {
+        this.chinPosUI.enabled = true;
+        this.toolUI.enabled = false
+        this.tool.enabled = false
+        this.flag_toolIsOn = false
+        this.isToolActive = false
+        this.deactivateCutTool()
+    }
+
+    private buttonBack(): void {
+        this.chinPosUI.enabled = false;
+        this.toolUI.enabled = true
+        this.tool.enabled = true
+        this.flag_toolIsOn = true
+        this.isToolActive = true
+        this.activateCutTool()
+    }
+
+    private buttonCutTool(): void {
+        if(!this.flag_toolIsOn) {
+            this.tool.enabled = true
+            this.activateCutTool()
+            this.toolUI.enabled = true
+            this.flag_toolIsOn = true
+        } else {
+            this.tool.enabled = false
+            this.deactivateCutTool()
+            this.toolUI.enabled = false
+            this.flag_toolIsOn = false
+        }
+    }
+
+    private buttonMove(): void {
+        this.slidersMove.enabled = true
+        this.slidersRotate.enabled = false
+        if(this.flag_chinMove === true) {
+
+        }
+    }
+
+    private buttonRotate(): void {
+        this.slidersMove.enabled = false
+        this.slidersRotate.enabled = true
+
+    }
+
+    private buttonResetChin(): void {
+        let zeroPos = this.zeroPosForChin
+        let zeroRot = quat.fromEulerAngles(0, 0, 0)
+
+        this.chin.getTransform().setLocalRotation(zeroRot)
+        this.chin.getChild(0).getTransform().setLocalPosition(zeroPos)        
+    }
+
+    public addOnStateChangedCallback(callback: (isActive: boolean) => void) {
+        this.onStateChangedCallbacks.push(callback);
+    }
+
+    public set isToolActive(value: boolean) {
+        if (this._flag_toolIsActive === value) return;
+        this._flag_toolIsActive = value;
+        for (let i = 0; i < this.onStateChangedCallbacks.length; i++) {
+            this.onStateChangedCallbacks[i](value);
+        }
+    }
+
+    private buttonDone(): void {
+        this.chinPosUI.enabled = false
+    }
+
+   
+
+}

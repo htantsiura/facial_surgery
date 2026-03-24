@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/09149bb3-ac52-4768-a9b5-c65458c0bd46>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c58b6fba-0dc1-4f86-9a37-57790651a284
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c58b6fba-0dc1-4f86-9a37-57790651a284
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d0125100-c6eb-4fc2-9182-dc0519cf29dd
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d0125100-c6eb-4fc2-9182-dc0519cf29dd>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5c2ed26a-f59e-45e2-92c1-9467ccfa2233
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    followerObject: false
+    mesh: false
+    myMaterial: false
+    point0: false
+    point1: false
+    point2: false
+    slicedMat: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - point0: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      point1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      point2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      myMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      mesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      followerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      slicedMat: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject point0
+    - // @input SceneObject point1
+    - // @input SceneObject point2
+    - // @input Asset.Material myMaterial
+    - // @input Component.RenderMeshVisual mesh
+    - // @input SceneObject followerObject
+    - // @input Asset.Material slicedMat

@@ -1,0 +1,125 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "frontColor",
+                	"label":       "Front Facing Color",
+                	"widget":      "color",
+                	"sortIndex":   "-10",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "backColor",
+                	"label":       "Back Facing Color",
+                	"widget":      "color",
+                	"sortIndex":   "-10",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N57",
+                	"label":       "Custom Float",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "0.3"
+                },
+                
+                {
+                	"label": "Sliced",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "sliceX",
+                    	"label":       "Slice X",
+                    	"widget":      "slider",
+                    	"min":         -10,
+                    	"max":         10,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "sliceY",
+                    	"label":       "Slice Y",
+                    	"widget":      "slider",
+                    	"min":         -10,
+                    	"max":         40,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "sliceZ",
+                    	"label":       "Slice Z",
+                    	"widget":      "slider",
+                    	"min":         -20,
+                    	"max":         20,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Height Calculation",
+                    	"bindingType": "defineSelect",
+                    	"values":      
+                    	[
+                    		
+                    		{
+                    			"value": "NODE_35_DROPLIST_ITEM 0",
+                    			"label": "Object Space"
+                    		},
+                    		
+                    		{
+                    			"value": "NODE_35_DROPLIST_ITEM 1",
+                    			"label": "World Space"
+                    		}
+                    	],
+                    	"sortIndex":   "10",
+                    	"hint":        "Controls whether the slice height is calculated in World or Object Space. World Space is the shared coordinate system for all objects. Object space is relative to your mesh’s scale. Note that you may need to drastically adjust the height value for very large or very small meshes."
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER",
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

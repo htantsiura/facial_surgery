@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    6b2e3e62-f0d1-4f4e-81bf-33cf71d8a133: d732da96-9681-4983-938c-d65c698af66a/2ac49e59c430ecbac3f41ac464ee1772/Data/Sphenoid_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/6b2e3e62-f0d1-4f4e-81bf-33cf71d8a133>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 88128
+        Vertices: 44400
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 11.084883, y: 7.142962, z: 5.991610}
+  SourceHash: 2ac49e59c430ecbac3f41ac464ee1772
+  FileHash: e14590b649ceb9575dfb0c912b947e1f
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ca358132-d2a7-468f-b99a-142a43455182: 0e02ec22-bc32-4888-be14-5ac0d10620a2/87ad8d23d37344014db96bf7521cbfe4/Data/Mandible_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/ca358132-d2a7-468f-b99a-142a43455182>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 94796
+        Vertices: 48085
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 10.530089, y: 6.291603, z: 10.971340}
+  SourceHash: 87ad8d23d37344014db96bf7521cbfe4
+  FileHash: 8366371dd42e4fadbefe9fc2f72aceb8
+  NativePackageItems:
+    []

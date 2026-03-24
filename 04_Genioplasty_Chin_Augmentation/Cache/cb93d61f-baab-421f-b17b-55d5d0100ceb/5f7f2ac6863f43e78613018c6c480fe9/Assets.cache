@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    9427a832-3494-4e9e-a8da-0ab7dbe55959: cb93d61f-baab-421f-b17b-55d5d0100ceb/5f7f2ac6863f43e78613018c6c480fe9/Data/Vomer_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/9427a832-3494-4e9e-a8da-0ab7dbe55959>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 4762
+        Vertices: 2379
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.633604, y: 2.852136, z: 5.667778}
+  SourceHash: 5f7f2ac6863f43e78613018c6c480fe9
+  FileHash: 8019357364a898a9256674554fcbfb1e
+  NativePackageItems:
+    []

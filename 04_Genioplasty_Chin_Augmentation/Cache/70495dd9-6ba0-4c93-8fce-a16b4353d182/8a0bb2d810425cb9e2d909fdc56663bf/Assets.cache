@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    89ca715f-1e42-4112-8e04-a33fea4e6dce: 70495dd9-6ba0-4c93-8fce-a16b4353d182/8a0bb2d810425cb9e2d909fdc56663bf/Data/icon Lock.png
+  Assets:
+    - !<FileTexture/89ca715f-1e42-4112-8e04-a33fea4e6dce>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 32
+        Height: 32
+  SourceHash: 8a0bb2d810425cb9e2d909fdc56663bf
+  FileHash: eeddc18fad868323a50720494bc49ccf
+  NativePackageItems:
+    []

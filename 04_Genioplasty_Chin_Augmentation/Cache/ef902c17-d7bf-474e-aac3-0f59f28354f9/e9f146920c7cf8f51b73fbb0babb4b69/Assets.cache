@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    c3941317-636c-4fa4-9355-e5e383c4caa2: ef902c17-d7bf-474e-aac3-0f59f28354f9/e9f146920c7cf8f51b73fbb0babb4b69/Data/Frontal_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/c3941317-636c-4fa4-9355-e5e383c4caa2>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 75336
+        Vertices: 37670
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 11.261526, y: 6.574403, z: 11.056928}
+  SourceHash: e9f146920c7cf8f51b73fbb0babb4b69
+  FileHash: d3fe20897eb1e9a3afc1d07aa1656724
+  NativePackageItems:
+    []

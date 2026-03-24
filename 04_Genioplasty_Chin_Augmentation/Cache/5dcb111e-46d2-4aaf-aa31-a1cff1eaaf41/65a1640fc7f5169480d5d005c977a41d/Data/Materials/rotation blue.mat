@@ -1,0 +1,213 @@
+- !<Material/f6cf684c-3e1f-4186-8b8e-824b07c65a1c>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 2be08d3a-c7ad-4942-bc08-b20d4efd3eb5
+- !<PassInfo/2be08d3a-c7ad-4942-bc08-b20d4efd3eb5>
+  CachedProperties:
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_GSplatRotation_N004:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    - Port_GSplatScale_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_Input0_N007:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_Input0_N009:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Input0_N025:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_Input0_N026:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_Input0_N029:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Input1_N009:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Input1_N026:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Input1_N029:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Input2_N009:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Input2_N029:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Input_N025:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_Output_N026:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_Output_N027:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_Output_N028:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_PrevWorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_Value3_N000:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Value4_N000:
+        typeIdx: 1
+        value: 0.000000
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+  DepthWrite: false
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_Center_N016:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    Port_Center_N041:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    Port_Import_N011:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Import_N012:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Port_Import_N015:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Import_N017:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    Port_Import_N019:
+      typeIdx: 1
+      value: 1.000000
+    Port_Import_N021:
+      typeIdx: 1
+      value: 0.000000
+    Port_Import_N031:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Port_Import_N032:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Import_N038:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Import_N042:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    Port_Import_N044:
+      typeIdx: 1
+      value: 0.990000
+    Port_Import_N047:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N006:
+      typeIdx: 1
+      value: 0.300000
+    Port_Input1_N007:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    Port_Input1_N025:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N007:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Input2_N025:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N003:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N014:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N034:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N003:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N014:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N034:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinA_N003:
+      typeIdx: 1
+      value: -1.000000
+    Port_RangeMinA_N014:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N034:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N003:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N014:
+      typeIdx: 1
+      value: -1.000000
+    Port_RangeMinB_N034:
+      typeIdx: 1
+      value: -1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    Tweak_N1:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.556863, w: 1.000000}
+    isActive:
+      typeIdx: 1
+      value: 0.000000
+  Pass: !<reference> 864c43ae-40d7-4816-ae4d-b1e09b4ab5ab

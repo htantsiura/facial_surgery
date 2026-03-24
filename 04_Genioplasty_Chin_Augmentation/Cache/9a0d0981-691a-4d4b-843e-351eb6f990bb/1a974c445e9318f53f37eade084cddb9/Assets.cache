@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    624331af-d5f4-4b04-9708-9e47bf0f15fc: 9a0d0981-691a-4d4b-843e-351eb6f990bb/1a974c445e9318f53f37eade084cddb9/Data/Inferior_conchae_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/624331af-d5f4-4b04-9708-9e47bf0f15fc>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 21498
+        Vertices: 10747
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.755716, y: 2.947587, z: 3.510412}
+  SourceHash: 1a974c445e9318f53f37eade084cddb9
+  FileHash: 53f44ccebd7c4691d367996f42c54ba1
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e6085c57-5490-4568-a209-7f551f0719c8: 1dd3e276-58d9-4537-8762-5c4b8d5c6a04/f3a00f6e8ac9e82ce3670a8f9ccc413a/Data/Ethmoid_STL_Output_from_geomagic_Studio_________________________________________________.mesh
+  Assets:
+    - !<FileMesh/e6085c57-5490-4568-a209-7f551f0719c8>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 162876
+        Vertices: 86436
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.545874, y: 4.753714, z: 5.088418}
+  SourceHash: f3a00f6e8ac9e82ce3670a8f9ccc413a
+  FileHash: c9b91c7c613395f2d44ab3f776f86287
+  NativePackageItems:
+    []

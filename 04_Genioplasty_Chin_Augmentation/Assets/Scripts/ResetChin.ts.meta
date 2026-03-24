@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/111bcfc9-cee4-427b-9ec2-271ff58b444a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4f7bee96-884e-48a6-8221-474d4a2232b8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4f7bee96-884e-48a6-8221-474d4a2232b8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d85c9b27-99ba-4c1a-8f09-1614b0b39b6c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d85c9b27-99ba-4c1a-8f09-1614b0b39b6c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 52350df5-aec8-4abc-b0fc-1ee2e1af9509
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    chin: false
+    sliders: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - chin: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sliders: !<MappingBased.AssignableType[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject chin
+    - "// @input AssignableType[] sliders"

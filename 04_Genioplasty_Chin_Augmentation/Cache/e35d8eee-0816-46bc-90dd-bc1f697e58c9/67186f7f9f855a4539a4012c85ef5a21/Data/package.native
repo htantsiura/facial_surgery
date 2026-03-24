@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/a50e7c07-21df-429b-a13c-86e4af4e69c5>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 0
+    build: 25101318
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Sliced Material This material slices 3d object based on the input height with a wobble animation control. It also demonstrates how to color front and back facing with one shader.
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: c17d79b2-31a2-477c-aa4c-e6f64d525b3b
+  ComponentUid: 34d7c3e7-4c8b-489e-8eb5-d1c228f2a77d
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
